@@ -1,1 +1,2 @@
-# JavascriptProject1
+# Digital clock to practice the setInterval method
+
