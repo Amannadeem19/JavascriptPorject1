@@ -1,0 +1,94 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+img{
+
+    width: 126px;
+    position: absolute;
+   margin-left: -234px;
+
+  
+
+}
+.clock{
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid white;
+    height: 350px;
+    width: 350px;
+}
+.number div{
+
+    position: absolute;
+    font-size: 27px;
+    font-weight: bold;
+    
+}
+.twelve{
+
+    padding-left: 153px;
+    padding-top: 12px;
+}
+.three{
+    padding-left: 311px;
+    padding-top: 152px;    
+}
+.six{
+
+    padding-left: 165px;
+    padding-top: 303px;
+}
+.nine{
+
+    padding-left: 22px;
+    padding-top: 154px;
+}
+
+.arrow{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.arrow::before{
+    content:"";
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 4;
+}
+.arrow div{
+
+    background-color: white;
+    width: 7px;
+    position: absolute;
+    height: 120px;
+    transform-origin: bottom center;
+    bottom: 50%;
+    z-index: 3 ;
+    border-radius: 50% 50% 0 0;
+
+
+}
+.arrow .hour{
+
+    height: 90px;
+    transform: rotate(30deg);
+}
+.arrow .sec{
+    width: 3px;
+    transform: rotate(250deg);
+
+}
